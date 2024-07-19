@@ -6,7 +6,7 @@ def add(a, b):
     """
     return a + b
 
-if __name__ == "__main__":
+def main():
     import argparse
 
     parser = argparse.ArgumentParser(description="A simple calculator")
@@ -16,6 +16,10 @@ if __name__ == "__main__":
 
     result = add(args.a, args.b)
     print(f"The sum of {args.a} and {args.b} is {result}")
+
+
+if __name__ == "__main__":
+    main()
     
     
     
